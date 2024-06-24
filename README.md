@@ -36,17 +36,20 @@ Análise de Frequência de Palavras:
 
 Calcula a frequência de cada palavra nos textos dos tweets usando expressões regulares e Counter.
 Visualiza as 20 palavras mais comuns usando um gráfico de barras.
-Análise de Menções de Usuários:
+## Análise de Menções de Usuários:
 
 Extrai menções de usuários (@username) dos textos dos tweets usando expressões regulares.
 Conta a frequência de cada menção de usuário e visualiza os 20 usuários mais mencionados.
-Análise Temporal:
+## Análise Temporal:
 
 Converte a coluna 'date' para o formato datetime.
 Extrai a hora do dia dos timestamps e adiciona como uma nova coluna ('hour').
-Análise de Hashtags por Hora:
+## Análise de Hashtags por Hora:
 
 Agrupa os tweets por hora e extrai hashtags (#hashtag) usando expressões regulares.
 Conta a frequência de cada hashtag por hora e imprime os 10 hashtags principais para cada hora.
-Saída
+## Saída
 O script gera visualizações de frequência de palavras e menções de usuários, além de imprimir as principais hashtags por hora no console.
+## código
+```python
+
